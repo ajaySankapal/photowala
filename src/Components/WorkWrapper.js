@@ -1,8 +1,10 @@
 import { Typography } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
+import Modal from "./Modal";
 import Weddings from "./Weddings";
 
 const WorkWrapper = () => {
+  const [selectedImg, setSelectedImg] = useState(null);
   return (
     <div className="workIDo">
       <Typography
@@ -11,7 +13,10 @@ const WorkWrapper = () => {
       >
         What I Do
       </Typography>
-      <Weddings />
+      <Weddings setSelectedImg={setSelectedImg} />
+      {selectedImg && (
+        <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+      )}
     </div>
   );
 };

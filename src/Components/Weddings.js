@@ -8,96 +8,32 @@ import img5 from "../img/img_wedding/pro_wedding_7.jpg";
 import img6 from "../img/img_wedding/pro_wedding_8.jpg";
 // import SimpleImageSlider from "react-simple-image-slider";
 
-const Weddings = () => {
+const Weddings = ({ setSelectedImg }) => {
   const images = [
-    { url: img1 },
-    { url: img6 },
-    { url: img3 },
-    { url: img4 },
-    { url: img2 },
-    { url: img5 },
+    // { url: img1 },
+    // { url: img6 },
+    // { url: img3 },
+    // { url: img4 },
+    // { url: img2 },
+    // { url: img5 },
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
   ];
   // const nu = [1, 2, 3];
   return (
     <div className="s-img-wrap">
-      {/* Weddings */}
-      {/* <div
-        id="carouselExampleIndicators"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={img1} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={img2} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={img3} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={img4} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={img5} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={img6} className="d-block w-100" alt="..." />
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div> */}
-      {/* <img src={img} alt="" /> */}
       {images.map((img) => {
         return (
-          <div className="img-wrap" key={new Date().getTime()}>
-            <img src={img.url} alt="" />
+          <div
+            className="img-wrap"
+            // key={new Date().getTime()}
+            onClick={() => setSelectedImg(img)}
+          >
+            <img src={img} alt="" />
           </div>
         );
       })}
