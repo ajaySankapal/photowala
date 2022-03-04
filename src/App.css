@@ -1,12 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -24,10 +16,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +24,170 @@
     transform: rotate(360deg);
   }
 }
+
+/* landing page style */
+.landing-page {
+  /* margin-top: 4%; */
+  /* padding: 10%; */
+  padding: 100px 0;
+}
+.l-page {
+  /* background: url("./img/img_street/scenery.jpg"), rgba(0, 0, 0, 0.7); */
+  /* background: rgba(0, 0, 0, 0.7); */
+  background: linear-gradient(rgba(23, 67, 88, 0.5), rgba(23, 67, 88, 0.5)),
+    /* bottom, image */ url("./img/img_street/scenery1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 98%;
+  height: 100vh;
+  /* opacity: 0.6; */
+  /* margin-left: 8%; */
+}
+.toggle {
+  position: fixed;
+  color: #fff !important;
+  font-size: 2rem;
+  margin: 2rem 2rem 0 2rem;
+}
+.info {
+  text-align: center;
+  justify-content: center;
+}
+.heading {
+  color: #fff;
+  opacity: 1;
+  padding-top: 1.5rem;
+  font-family: "Amiri", serif !important;
+  font-family: "Didact Gothic", sans-serif;
+}
+.niche {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  /* opacity: 1; */
+}
+
+.pipe {
+  padding: 8px;
+}
+#wed:hover {
+  color: #212121;
+  opacity: 1;
+}
+#portrait:hover {
+  color: #212121;
+  opacity: 1;
+}
+#street:hover {
+  color: #212121;
+  opacity: 1;
+}
+.down-arr {
+  /* position: absolute; */
+  font-size: 2.5rem;
+  /* justify-content: center; */
+  /* margin: 1rem 20rem 5rem 46rem; */
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+}
+.avatar {
+  width: 270px;
+  height: 270px;
+  background-size: cover;
+  border-radius: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 0px 0px rgb(200 95 66 / 40%) inset,
+    0px 0px 0px 16px rgb(255 255 255 / 45%) inset, 0px 1px 2px rgb(0 0 0 / 6%);
+}
+/* about me */
+.propic {
+  /* height: 2240px; */
+  width: 100%;
+}
+.aboutme-info {
+  margin-left: 1rem;
+  /* font-family: "Amiri", serif;
+  font-family: "Didact Gothic", sans-serif;
+  font-family: "Hubballi", cursive; */
+  /* font-family: "Amiri", serif;
+  font-family: "BhuTuka Expanded One " !important;
+  font-family: "Didact Gothic", sans-serif;
+  font-family: "Hubballi", cursive; */
+  font-family: Georgia, serif !important;
+  color: #424242;
+}
+.social-container {
+  text-align: center;
+  padding: 1rem;
+}
+.social-container span {
+  /* border-radius: 100%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* display: block; */
+  /* border: 1px solid black; */
+  width: 50px;
+  height: 50px;
+  padding: 0.25rem;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  margin-right: auto;
+  margin-bottom: 10px !important;
+  /* color: #fff; */
+  border: 2px solid black;
+}
+.insta:hover {
+  background-color: #ec407a;
+  color: #ffffff !important;
+}
+.twi:hover {
+  background-color: #2196f3;
+  color: #ffffff !important;
+}
+.faceb:hover {
+  background-color: #2196f3;
+  color: #ffffff !important;
+}
+.yt:hover {
+  background-color: #ff0000;
+  color: #ffffff !important;
+}
+.workIDo {
+  margin-top: 5%;
+}
+.s-img-wrap {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.img-wrap {
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  opacity: 1;
+}
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* .img-wrapper {
+  /* width: 100%; */
+/* display: flex;
+} */
+/* .img-wrapper img {
+  width: 100%; */
+/* display: flex; */
+/* flex-direction: row;
+  align-items: flex-start; */
+/* overflow: hidden; */
+/* } */
