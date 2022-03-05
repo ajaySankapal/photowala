@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/photowala/static/css/main.a7334674.css",
+    "main.js": "/photowala/static/js/main.92caedba.js",
+    "static/media/pro_portraits_3.jpg": "/photowala/static/media/pro_portraits_3.2fd6951dfd0df3a627dc.jpg",
+    "static/media/pro_portraits_2.jpg": "/photowala/static/media/pro_portraits_2.036202cf03b03c11dea2.jpg",
+    "static/media/avatar2.jpg": "/photowala/static/media/avatar2.eb0f07aef40a6404c5c4.jpg",
+    "static/media/pro_street_5.jpg": "/photowala/static/media/pro_street_5.a370d8e652e977bf7a5b.jpg",
+    "static/media/pro_wedding_3.jpg": "/photowala/static/media/pro_wedding_3.ce8eb8b8261e93912e67.jpg",
+    "static/media/pro_street_3.jpg": "/photowala/static/media/pro_street_3.80dcbf51a05430938767.jpg",
+    "static/media/pro_wedding_8.jpg": "/photowala/static/media/pro_wedding_8.c6c9b89234cac7ba0f5c.jpg",
+    "static/media/scenery1.jpg": "/photowala/static/media/scenery1.e8bd05f3e4a5f8827347.jpg",
+    "static/media/pro_wedding_6.jpg": "/photowala/static/media/pro_wedding_6.28cb5ab2b86c3541fb41.jpg",
+    "static/media/pro_street_1.jpg": "/photowala/static/media/pro_street_1.6a312749fce5a9f985d0.jpg",
+    "static/media/avatar1.jpg": "/photowala/static/media/avatar1.dde73e28925ac1d529b7.jpg",
+    "static/media/pro_street_6.jpg": "/photowala/static/media/pro_street_6.4096b554017d23485b4f.jpg",
+    "static/media/pro_portraits_5.jpg": "/photowala/static/media/pro_portraits_5.3dd52a3eaa5b0c6bbc63.jpg",
+    "static/media/pro_wedding_7.jpg": "/photowala/static/media/pro_wedding_7.ec393302ee5e412014b1.jpg",
+    "static/media/pro_wedding_1.jpg": "/photowala/static/media/pro_wedding_1.05c510e245f9a68c1a26.jpg",
+    "static/media/pro_street_4.jpg": "/photowala/static/media/pro_street_4.3e51e4897bf09e3d7fc6.jpg",
+    "static/media/pro_street_2.jpg": "/photowala/static/media/pro_street_2.5cbc72d379ac4130a7b1.jpg",
+    "static/media/pro_wedding_4.jpg": "/photowala/static/media/pro_wedding_4.912cf2261fcd99d63e0e.jpg",
+    "static/media/pro_portraits_4.jpg": "/photowala/static/media/pro_portraits_4.a9e9cc35ff045cff0f3c.jpg",
+    "static/media/pro_portraits_1.jpg": "/photowala/static/media/pro_portraits_1.61aecb71d7b6599812e5.jpg",
+    "static/media/pro_portraits_6.jpg": "/photowala/static/media/pro_portraits_6.a2658cdf4dec67db2074.jpg",
+    "index.html": "/photowala/index.html",
+    "main.a7334674.css.map": "/photowala/static/css/main.a7334674.css.map",
+    "main.92caedba.js.map": "/photowala/static/js/main.92caedba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7334674.css",
+    "static/js/main.92caedba.js"
+  ]
+}
