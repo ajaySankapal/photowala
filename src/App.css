@@ -43,11 +43,38 @@
   /* margin-left: 8%; */
 }
 .toggle {
+  /* position: fixed;
+  color: #000000 !important;
+  font-size: 2.2rem;
+  /* trbl */
+  /* margin: 2.2rem 2rem 0 1.5rem;
+  width: 240px;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #ffffff; */
   position: fixed;
-  color: #fff !important;
-  font-size: 2rem;
-  margin: 2rem 2rem 0 2rem;
+  background: #fff;
+  color: #000;
+  z-index: 2000;
+  display: block;
+  padding: 0px;
+  width: 50px;
+  top: 5px;
+  left: 5px;
+  margin-left: 6px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  border-radius: 30px;
+  box-shadow: 1px 0px 2px rgb(0 0 0 / 10%);
+  line-height: 50px;
 }
+/* @media screen and (max-width: 770px) {
+  .bucket {
+    max-width: 100% !important;
+  }
+} */
 .info {
   text-align: center;
   justify-content: center;
@@ -158,29 +185,26 @@
 .workIDo {
   margin-top: 5%;
 }
-.s-img-wrap {
-  /* margin: 5px 5px; */
+
+.img-grid {
+  margin: 10px 20px;
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  grid-gap: 20px;
-  text-align: center;
-  width: 60%;
-  height: 60%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 0% 15%;
 }
 .img-wrap {
   overflow: hidden;
-  height: 100%;
-  width: 100%;
-  margin: 30px;
-  /* padding: 35% 100%; */
-  /* padding controls height, will always be perfectly square regardless of width */
+  height: 0;
+  padding: 50% 0;
   position: relative;
   opacity: 1;
+  width: 100%;
 }
 .img-wrap img {
-  min-width: 55%;
-  min-height: 55%;
-  max-width: 60%;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 120%;
   position: absolute;
   top: 0;
   /* left: 0; */
@@ -200,4 +224,84 @@
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
+}
+.sidebar {
+  height: 100%;
+  width: 257px;
+  position: fixed;
+  background: #222;
+  top: 0;
+  z-index: 1000;
+  color: #fff;
+}
+/* background: #1A1A1A; */
+.menu-h {
+  background: #1a1a1a;
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+  height: 60px;
+  /* width: 190px; */
+  font-size: 1.7rem !important;
+  padding-top: 9px !important;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.4rem;
+  padding: 12px;
+}
+.connect {
+  justify-content: center;
+  display: block;
+  align-items: center;
+}
+#connect {
+  width: 63%;
+}
+/* trbl */
+
+#connect form input {
+  padding: 8px;
+  width: 70%;
+  margin: 10px 40% 0 28%;
+  border: 1px solid green;
+}
+#connect form textarea {
+  width: 70%;
+
+  padding: 8px;
+  margin: 10px 40% 0 28%;
+
+  border: 1px solid green;
+}
+#connect form button {
+  margin: 10px 40% 0 28%;
+  /* background-color: #fff;
+  color: #000; */
+}
+.con-info {
+  display: block;
+  text-align: center;
+  margin: 20px 40% 10px 26%;
+  width: 100%;
+  /* padding: 10px; */
+}
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  margin-top: 50px;
+  background: #272727;
+  color: #fff;
+}
+.footer-txt {
+  top: 0;
+  margin-bottom: 30px;
+  display: block;
 }

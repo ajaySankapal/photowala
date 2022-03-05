@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import Typography from "@mui/material/Typography";
 import { FaBars, FaArrowCircleDown } from "react-icons/fa";
 import background from "../img/img_street/avatar1.jpg";
-const LandingPage = () => {
+import Navbar from "./Sidebar";
+const LandingPage = ({ setSidebar, sidebar }) => {
   return (
-    <section className="l-page">
-      <div className="toggle">
-        <FaBars></FaBars>
+    <section className="l-page" id="landing-page">
+      <div
+        className="toggle"
+        onClick={() => {
+          setSidebar(!sidebar);
+        }}
+      >
+        <FaBars className="fa-bars"></FaBars>
+
+        {/* {!showNavbar && <Navbar />} */}
       </div>
+      {/* <Navbar /> */}
       <div className="landing-page">
         <div className="info">
           <div

@@ -9,30 +9,12 @@ import img6 from "../img/img_wedding/pro_wedding_8.jpg";
 // import SimpleImageSlider from "react-simple-image-slider";
 
 const Weddings = ({ setSelectedImg }) => {
-  const images = [
-    // { url: img1 },
-    // { url: img6 },
-    // { url: img3 },
-    // { url: img4 },
-    // { url: img2 },
-    // { url: img5 },
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-  ];
-  // const nu = [1, 2, 3];
+  const images = [img1, img2, img3, img4, img5, img6];
   return (
-    <div className="s-img-wrap">
+    <div className="img-grid">
       {images.map((img) => {
         return (
-          <div
-            className="img-wrap"
-            // key={new Date().getTime()}
-            onClick={() => setSelectedImg(img)}
-          >
+          <div className="img-wrap" onClick={() => setSelectedImg(img)}>
             <img src={img} alt="" />
           </div>
         );
