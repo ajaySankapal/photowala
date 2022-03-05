@@ -1,57 +1,19 @@
-@import "~react-image-gallery/styles/css/image-gallery.css";
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* landing page style */
 .landing-page {
-  /* margin-top: 4%; */
-  /* padding: 10%; */
   padding: 100px 0;
 }
 .l-page {
-  /* background: url("./img/img_street/scenery.jpg"), rgba(0, 0, 0, 0.7); */
-  /* background: rgba(0, 0, 0, 0.7); */
   background: linear-gradient(rgba(23, 67, 88, 0.5), rgba(23, 67, 88, 0.5)),
-    /* bottom, image */ url("./img/img_street/scenery1.jpg");
+    url("./img/img_street/scenery1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 98%;
   height: 100vh;
   /* opacity: 0.6; */
   /* margin-left: 8%; */
 }
+
+/* sidebar */
 .toggle {
-  /* position: fixed;
-  color: #000000 !important;
-  font-size: 2.2rem;
-  /* trbl */
-  /* margin: 2.2rem 2rem 0 1.5rem;
-  width: 240px;
-  height: 100%;
-  border-radius: 100%;
-  background-color: #ffffff; */
   position: fixed;
   background: #fff;
   color: #000;
@@ -70,11 +32,36 @@
   box-shadow: 1px 0px 2px rgb(0 0 0 / 10%);
   line-height: 50px;
 }
-/* @media screen and (max-width: 770px) {
-  .bucket {
-    max-width: 100% !important;
-  }
-} */
+.sidebar {
+  height: 100%;
+  width: 257px;
+  position: fixed;
+  background: #222;
+  top: 0;
+  z-index: 1000;
+  color: #fff;
+}
+.menu-h {
+  background: #1a1a1a;
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+  height: 60px;
+  /* width: 190px; */
+  font-size: 1.7rem !important;
+  padding-top: 9px !important;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.4rem;
+  padding: 12px;
+}
 .info {
   text-align: center;
   justify-content: center;
@@ -137,13 +124,6 @@
 }
 .aboutme-info {
   margin-left: 1rem;
-  /* font-family: "Amiri", serif;
-  font-family: "Didact Gothic", sans-serif;
-  font-family: "Hubballi", cursive; */
-  /* font-family: "Amiri", serif;
-  font-family: "BhuTuka Expanded One " !important;
-  font-family: "Didact Gothic", sans-serif;
-  font-family: "Hubballi", cursive; */
   font-family: Georgia, serif !important;
   color: #424242;
 }
@@ -152,11 +132,6 @@
   padding: 1rem;
 }
 .social-container span {
-  /* border-radius: 100%; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* display: block; */
-  /* border: 1px solid black; */
   width: 50px;
   height: 50px;
   padding: 0.25rem;
@@ -169,6 +144,7 @@
   margin-bottom: 10px !important;
   /* color: #fff; */
   border: 2px solid black;
+  cursor: pointer;
 }
 .insta:hover {
   background-color: #ec407a;
@@ -229,37 +205,7 @@
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
 }
-.sidebar {
-  height: 100%;
-  width: 257px;
-  position: fixed;
-  background: #222;
-  top: 0;
-  z-index: 1000;
-  color: #fff;
-}
-/* background: #1A1A1A; */
-.menu-h {
-  background: #1a1a1a;
-  font-family: "Didact Gothic", sans-serif;
-  text-align: center;
-  height: 60px;
-  /* width: 190px; */
-  font-size: 1.7rem !important;
-  padding-top: 9px !important;
-}
-.menu {
-  display: flex;
-  flex-direction: column;
-  /* text-align: center; */
-}
-.menu a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Didact Gothic", sans-serif;
-  font-size: 1.4rem;
-  padding: 12px;
-}
+
 .connect {
   justify-content: center;
   display: block;
@@ -268,7 +214,6 @@
 #connect {
   width: 63%;
 }
-/* trbl */
 
 #connect form input {
   padding: 8px;
