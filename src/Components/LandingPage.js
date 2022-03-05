@@ -39,7 +39,9 @@ const LandingPage = ({ setSidebar, sidebar }) => {
         </div>
       </div>
       <div className="down-arr">
-        <FaArrowCircleDown />
+        <a href="#about" style={{ textDecoration: "none", color: "#fff" }}>
+          <FaArrowCircleDown />
+        </a>
       </div>
     </section>
   );

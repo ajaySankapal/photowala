@@ -116,6 +116,10 @@
   text-align: center;
   color: #fff;
   opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
 .avatar {
   width: 270px;
@@ -288,8 +292,8 @@
 .con-info {
   display: block;
   text-align: center;
-  margin: 20px 40% 10px 26%;
-  width: 100%;
+  margin: 40px 40% 10px 24%;
+  width: 65%;
   /* padding: 10px; */
 }
 .footer {
