@@ -25,11 +25,14 @@ const AboutMe = () => {
           </div>
           <div className="col-6 aboutme-info">
             <Typography variant="subtitle1">
-              Hi I am K.Ramchandran go by the name <strong>Photowala</strong> in
-              the industry. I am a wedding photographer who absolutely loves his
-              job and everything that comes with it . I appreciate the people I
-              meet, the places I go, the hours I keep, and the spontaneity in
-              every shoot. <br />
+              Hi I am K.Ramchandran go by the name{" "}
+              <strong style={{ color: "green", cursor: "pointer" }}>
+                PHOTOWALA
+              </strong>{" "}
+              in the industry. I am a wedding photographer who absolutely loves
+              his job and everything that comes with it . I appreciate the
+              people I meet, the places I go, the hours I keep, and the
+              spontaneity in every shoot. <br />
               <br /> I appreciate the raw reality of everyday life, the fleeting
               beauty of those in-between moments,and I do my very best to take
               every picture with that in mind. I want my viewers to relate to my
