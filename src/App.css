@@ -86,14 +86,19 @@
 #wed:hover {
   color: #212121;
   opacity: 1;
+  cursor: pointer;
 }
 #portrait:hover {
   color: #212121;
   opacity: 1;
+  cursor: pointer;
 }
 #street:hover {
   color: #212121;
+  transition: 0.3s;
   opacity: 1;
+  /* font-size: 1.8rem; */
+  cursor: pointer;
 }
 .down-arr {
   /* position: absolute; */
@@ -149,18 +154,30 @@
 .insta:hover {
   background-color: #ec407a;
   color: #ffffff !important;
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 .twi:hover {
   background-color: #2196f3;
   color: #ffffff !important;
+  transition: 0.3s;
+  transform: scale(1.2);
+  opacity: 1;
 }
 .faceb:hover {
   background-color: #2196f3;
   color: #ffffff !important;
+  transition: 0.3s;
+  transform: scale(1.2);
+  opacity: 1;
 }
 .yt:hover {
   background-color: #ff0000;
   color: #ffffff !important;
+  transform: scale(1.2);
+  transition: 0.3s;
+  opacity: 1;
 }
 .workIDo {
   margin-top: 5%;

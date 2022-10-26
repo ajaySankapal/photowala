@@ -48,17 +48,18 @@ const AboutMe = () => {
           className='insta'
           style={{
             color: '#ec407a',
+            opacity: 0.8,
           }}
         >
           <BsInstagram />
         </span>
-        <span className='twi' style={{ color: '#2196f3' }}>
+        <span className='twi' style={{ color: '#2196f3', opacity: 0.8 }}>
           <BsTwitter />
         </span>
-        <span className='faceb' style={{ color: '#2196f3' }}>
+        <span className='faceb' style={{ color: '#2196f3', opacity: 0.8 }}>
           <FaFacebook />
         </span>
-        <span className='yt' style={{ color: '#FF0000' }}>
+        <span className='yt' style={{ color: '#FF0000', opacity: 0.8 }}>
           <FaYoutube />
         </span>
       </div>
