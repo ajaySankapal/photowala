@@ -4,7 +4,7 @@
 }
 .l-page {
   background: linear-gradient(rgba(23, 67, 88, 0.5), rgba(23, 67, 88, 0.5)),
-    url("./img/img_street/scenery1.jpg");
+    url('./img/img_street/scenery1.jpg');
   background-repeat: no-repeat;
   background-size: 100% 98%;
   height: 100vh;
@@ -43,7 +43,7 @@
 }
 .menu-h {
   background: #1a1a1a;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   text-align: center;
   height: 60px;
   /* width: 190px; */
@@ -58,7 +58,7 @@
 .menu a {
   text-decoration: none;
   color: #fff;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 1.4rem;
   padding: 12px;
 }
@@ -70,8 +70,8 @@
   color: #fff;
   opacity: 1;
   padding-top: 1.5rem;
-  font-family: "Amiri", serif !important;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: 'Amiri', serif !important;
+  font-family: 'Didact Gothic', sans-serif;
 }
 .niche {
   text-align: center;
@@ -138,10 +138,10 @@
   display: inline-block;
   border-radius: 50px;
   text-align: center;
-  margin-left: 1rem;
+  margin-left: 1.3rem;
   font-size: 1.5rem;
   margin-right: auto;
-  margin-bottom: 10px !important;
+  margin-bottom: 5px !important;
   /* color: #fff; */
   border: 2px solid black;
   cursor: pointer;

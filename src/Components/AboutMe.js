@@ -1,34 +1,34 @@
-import React from "react";
-import propic from "../img/img_street/avatar2.jpg";
-import Typography from "@mui/material/Typography";
-import { BsInstagram, BsTwitter } from "react-icons/bs";
-import { FaFacebook, FaYoutube } from "react-icons/fa";
+import React from 'react'
+import propic from '../img/img_street/avatar2.jpg'
+import Typography from '@mui/material/Typography'
+import { BsInstagram, BsTwitter } from 'react-icons/bs'
+import { FaFacebook, FaYoutube } from 'react-icons/fa'
 
 const AboutMe = () => {
   return (
     <div>
-      <div id="about">
+      <div id='about'>
         <Typography
-          variant="h4"
-          style={{ fontFamily: "Amiri", textAlign: "center" }}
+          variant='h4'
+          style={{ fontFamily: 'Amiri', textAlign: 'center' }}
         >
           About Me
         </Typography>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-1"></div>
-          <div className="col-3">
-            <div className="photo-container">
-              <img className="propic" src={propic} alt="author" />
+      <div className='container'>
+        <div className='row'>
+          <div className='col-1'></div>
+          <div className='col-3'>
+            <div className='photo-container'>
+              <img className='propic' src={propic} alt='author' />
             </div>
           </div>
-          <div className="col-6 aboutme-info">
-            <Typography variant="subtitle1">
-              Hi I am K.Ramchandran go by the name{" "}
-              <strong style={{ color: "green", cursor: "pointer" }}>
+          <div className='col-6 aboutme-info'>
+            <Typography variant='subtitle1'>
+              Hi I am K.Ramchandran go by the name{' '}
+              <strong style={{ color: 'green', cursor: 'pointer' }}>
                 PHOTOWALA
-              </strong>{" "}
+              </strong>{' '}
               in the industry. I am a wedding photographer who absolutely loves
               his job and everything that comes with it . I appreciate the
               people I meet, the places I go, the hours I keep, and the
@@ -43,27 +43,27 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="social-container">
+      <div className='social-container'>
         <span
-          className="insta"
+          className='insta'
           style={{
-            color: "#ec407a",
+            color: '#ec407a',
           }}
         >
           <BsInstagram />
         </span>
-        <span className="twi" style={{ color: "#2196f3" }}>
+        <span className='twi' style={{ color: '#2196f3' }}>
           <BsTwitter />
         </span>
-        <span className="faceb" style={{ color: "#2196f3" }}>
+        <span className='faceb' style={{ color: '#2196f3' }}>
           <FaFacebook />
         </span>
-        <span className="yt" style={{ color: "#FF0000" }}>
+        <span className='yt' style={{ color: '#FF0000' }}>
           <FaYoutube />
         </span>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe
